@@ -9,6 +9,7 @@ SAUCECONNECT_READYFILE="sc.ready"
 TEST_EXITCODE=0
 
 npm run build
+node ci/makeMockCompiler.js
 npm run serve &
 
 wget "$SAUCECONNECT_URL"

@@ -1,0 +1,8 @@
+{
+    "testSimpleContract": {
+        "sources": {
+            "Untitled": "contract test {}"
+        }
+    } 
+    
+}
